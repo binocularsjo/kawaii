@@ -1,0 +1,97 @@
+button {
+    background-color: #ff69b4; /* Pink color */
+    color: white;
+    padding: 12px 24px; /* Adjust padding to change button size */
+    font-size: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+    transform: scale(1.05); /* Scale up button slightly on hover */
+}
+
+button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5); /* Add pink shadow on focus */
+}
+
+body {
+    background: url('pic.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#out {
+    font-size: 100px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   background-color: transparent;
+   border: 6px solid rgba(255, 255, 255, .2);
+}
+
+#ro {
+   position: absolute;
+   margin-top: 300px;
+   left: 260px;
+}
+
+#ge {
+    position: absolute;
+    margin-top: 300px;
+    left: 650px;
+ }
+
+ #en {
+    position: absolute;
+    margin-top: 300px;
+    left: 1020px;
+ }
+ 
+ #jp {
+    position: absolute;
+    margin-top: 300px;
+    left: 1400px;
+ }
+
+ #bg {
+    position: absolute;
+    margin-top: 500px;
+    left: 259px;
+ }
+
+ #cat {
+    position: absolute;
+    margin-top: 500px;
+    left: 1400px;
+ }
+
+ #ch {
+    position: absolute;
+    margin-top: 700px;
+    left: 260px;
+ }
+ 
+ #sp {
+     position: absolute;
+     margin-top: 700px;
+     left: 650px;
+  }
+ 
+  #fr {
+     position: absolute;
+     margin-top: 700px;
+     left: 1020px;
+  }
+  
+  #ss {
+     position: absolute;
+     margin-top: 700px;
+     left: 1400px;
+}
